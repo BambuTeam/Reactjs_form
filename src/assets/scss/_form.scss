@@ -1,4 +1,47 @@
 
+@font-face {
+    font-family: BCS_Bold;
+    src: url(../fonts/Bold.otf);
+  }
+
+  @font-face {
+    font-family: BCS_Media;
+    src: url(../fonts/Media.otf);
+  }
+
+
+h1,h2,h3,h4 {
+    font-family: BCS_Media;
+}
+
+
+body{
+    background-color: #fefefe;
+}
+
 .bg-form{
     background-color: $bg_body !important;
+}
+
+.logo img{
+    margin-top: 50px;
+    display: block;
+    max-width: 15%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.City {
+    margin-top: 20px;
+    padding: 0px !important;
+}
+
+.title_form{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form_data{
+    margin-top: 50px;
 }
