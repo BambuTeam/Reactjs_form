@@ -12,7 +12,7 @@ const header=()=>(
         </div>
         <div className="title_form">
         <Row>
-        <h2>Completa los datos para tu solicitud</h2>
+        <h2>Completa tus datos a continuación</h2>
         </Row>
         </div>
     </Container>

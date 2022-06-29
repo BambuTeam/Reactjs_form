@@ -3,18 +3,19 @@ import { Container, Row, Col, Form, Button, Dropdown} from 'react-bootstrap';
 
 const form=()=>(
     <div className="form_data">
-    <Container >
+    <Container>
         <Row>
             <Col>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Tipo de Cliente*</Form.Label>
-                    <Form.Control type="text" placeholder="Tipo de Cliente" />
                     <Form.Select aria-label="Default select example">
-                    <option>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                        <option>Menú de selección</option>
+                        <option value="1">Persona Individual</option>
+                        <option value="2">Compañia / Sociedad</option>
+                        <option value="3">Fundación / ONG </option>
+                        <option value="4"> Estado </option>
+                        <option value="4"> Otro </option>
                     </Form.Select>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
