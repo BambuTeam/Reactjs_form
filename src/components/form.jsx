@@ -32,7 +32,18 @@ const form=()=>(
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Departamento</Form.Label>
-                    <Form.Control type="Departamento" placeholder="Departamento" />
+                    <Form.Select aria-label="Default select example">
+                        <option>Menú de selección</option>
+                        <option value="1">Alta Verapaz</option>
+                        <option value="2">Baja Verapaz</option>
+                        <option value="3">Chimaltenango </option>
+                        <option value="4">Chiquimula</option>
+                        <option value="5"> El Progreso </option>
+                        <option value="6"> Escuintla </option>
+                        <option value="7"> Guatemala </option>
+
+
+                    </Form.Select>
                 </Form.Group>
 
             </Form>
