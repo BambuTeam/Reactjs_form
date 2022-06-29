@@ -23,6 +23,11 @@ input, select{
 
 }
 
+::placeholder{
+    color: #ce0e2d !important;
+}
+
+
 .location_text{
    border-bottom: solid 1px #ce0e2d;
    width: 17%;
@@ -76,6 +81,16 @@ body{
     padding: 0px !important;
 }
 
+
+.tv {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
 .title_form{
     margin-top: 20px;
     text-align: center;
@@ -95,20 +110,56 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ce0e2d;
+    background-color: #ce0e2d !important;
+    color: #fefefe;
     border-radius: 5px;
-    border-color: #fefefe;
+    border-color:  1px solid #fefefe ;
     padding: 10px 100px 10px 100px;
+    -webkit-box-shadow: -12px 9px 10px -3px #CE0E2D; 
+        box-shadow: -12px 9px 10px -3px #CE0E2D;
+    
 
     &:hover{
         border-color: #ce0e2d;
         background-color: transparent;
-        color: #ce0e2d;
+        color: #fefefe;
         font-family: BCS_Bold;
         padding: 10px 100px 10px 100px;
+        -webkit-box-shadow: -12px 9px 10px -3px #CE0E2D; 
+        box-shadow: -12px 9px 10px -3px #CE0E2D;
+    
 
 
     }
-  
+}
+
+.btn-primary{
+    border-color: #fefefe !important ;
+    -webkit-box-shadow: -12px 9px 10px -3px #CE0E2D; 
+        box-shadow: -12px 9px 10px -3px #CE0E2D;
+
+        &:focus{
+            border-color:  1px solid #fefefe ;
+            background-color: #ce0e2d !important;
+            -webkit-box-shadow: -12px 9px 10px -3px #CE0E2D; 
+            box-shadow: -12px 9px 10px -3px #CE0E2D !important;
+        }
+    
+
+}
+
+.btn-primary:active{
+    background-color: #ce0e2d !important;
+    color: #fefefe;
+    border-color:  1px solid #fefefe ;
+
+
+    &:focus{
+        border-color:  1px solid #fefefe ;
+        background-color: #ce0e2d !important;
+        -webkit-box-shadow: -12px 9px 10px -3px #CE0E2D; 
+        box-shadow: -12px 9px 10px -3px #CE0E2D !important;
+    }
+
 }
 
