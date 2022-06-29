@@ -9,6 +9,45 @@
     src: url(../fonts/Media.otf);
   }
 
+  @font-face {
+    font-family: BCS_Line;
+    src: url(../fonts/Line.otf);
+  }
+
+
+input, select{
+    font-family: BCS_Media;
+    color: #ce0e2d;
+    
+
+
+}
+
+.location_text{
+   border-bottom: solid 1px #ce0e2d;
+   width: 17%;
+   
+}
+
+.form-control {
+    color: #ce0e2d;
+    border: solid 1px #ce0e2d;
+
+}
+
+
+.form-select {
+    color: #ce0e2d;
+    border: solid 1px #ce0e2d;
+
+}
+
+label{
+    font-family: BCS_Bold;
+    font-weight: 900;
+    line-height : 10px;
+
+}
 
 h1,h2,h3,h4 {
     font-family: BCS_Media;
@@ -45,3 +84,31 @@ body{
 .form_data{
     margin-top: 50px;
 }
+
+.form-check-input:checked{
+    background-color: #ce0e2d;
+    border-color: #fefefe;
+}
+
+.button_send {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ce0e2d;
+    border-radius: 5px;
+    border-color: #fefefe;
+    padding: 10px 100px 10px 100px;
+
+    &:hover{
+        border-color: #ce0e2d;
+        background-color: transparent;
+        color: #ce0e2d;
+        font-family: BCS_Bold;
+        padding: 10px 100px 10px 100px;
+
+
+    }
+  
+}
+
